@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title> test page </title>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body onLoad>
+    <script>
+        helloWorld();
+    </script>
+    <div>
+        <h1> Hello World! </h1>
+    </div>
+    <script>
+        var promise1 = new Promise(function(resolve, reject) {
+            setTimeout(function() {
+                resolve('foo');
+            }, 300);
+        });
+
+        promise1.then(function(value) {
+            console.log(value);
+            // expected output: "foo"
+        });
+
+    </script>
+    <script>
+        byeWorld();
+    </script>
+
+    <script>
+        window.onLoad = () => {
+            alert('Page is fully loaded');
+        };
+    </script>
+</body>
+
+</html>
