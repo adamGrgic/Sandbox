@@ -12,10 +12,18 @@
     <!-- Credit Card Form  -->
 <div class="form">
     <form>
-        <label> Card Number </label>
-        <input type="text" value="Card Number"></input>
-        <label> Card Name </label>
-        <input type="text" value="Card Name"></input>
+        <div class="row-container">
+            <div class="input-container">
+                <label for="number" class="subtext"> Card Number </label>
+                <input type="text" class="input" id="number" value="Card Number"></input>
+            </div>
+            <div class="input-container">
+                <label for="name" class="subtext"> Card Name </label>
+                <input type="text" class="input" id="name" value="Card Name"></input>
+            </div>
+        </div>
+        
+        
         <div class="small-fields">
             <fieldset>
                 <legend>Expiration Date</legend>  

@@ -10,3 +10,42 @@
     justify-content: center;
     text-align: center;
 }
+
+fieldset {
+    border: none;
+}
+
+legend {
+    text-align: left;
+    font-size: 12px;
+}
+
+#number {
+    font-size: 12px;
+
+}
+
+.input-container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtext {
+    font-size: 12px;
+    justify-content: center;
+
+}
+
+.input {
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.row-container {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
