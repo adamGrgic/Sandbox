@@ -7,6 +7,10 @@
 .form {
     display: flex;
     flex-direction: column;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: rgb(245, 244, 244);
@@ -14,8 +18,8 @@
     margin-left: auto;
     margin-right: auto;
     box-shadow: 4px 4px 14px grey;
+    padding-top: 200px;
 }
-
 fieldset {
     border: none;
 }
@@ -59,4 +63,18 @@ legend {
     display: block;
     margin: auto;
     width: 75%;
+}
+
+.card-container {
+    background-color: lightslategray;
+    width: 200px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+    margin-top: 100px;
+    margin-bottom: -100px;
 }
