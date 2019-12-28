@@ -9,6 +9,11 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background-color: rgb(245, 244, 244);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 14px grey;
 }
 
 fieldset {
@@ -34,15 +39,20 @@ legend {
 .subtext {
     font-size: 12px;
     justify-content: center;
-    width: 90%;
+    width: 50%;
+    color: navy;
 
 }
 
 .input {
-    width: 15%;
+    width: 60%;
     text-align: center;
     justify-content: center;
     margin: auto;
+    border-radius: 5px;
+    border: 1px lightgrey solid;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
 }
 
 .row-container {
