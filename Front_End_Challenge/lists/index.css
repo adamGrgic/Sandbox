@@ -1,0 +1,29 @@
+.column {
+    background-color: white;
+    border:lightgreen 1px solid;
+    width: 250px;
+    height: 250px;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    background-color: white;
+    border: lightpink 1px solid;
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sub-column {
+    display: flex;
+    flex-direction: column;
+}

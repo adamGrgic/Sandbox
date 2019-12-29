@@ -1,6 +1,7 @@
 <html>
     <head>
         <script src="index.js"></script>
+        <link href="index.css" rel="stylesheet">
 
     </head>
     <body>
@@ -10,6 +11,8 @@
             addToList = () => {
                 count += 1;
                 console.log('Count is now to set to '+ count);
+                document.getElementById("number-container").innerHTML = count;
+
             }    
         </script>
         <div>
@@ -17,6 +20,27 @@
             
 
             <button id="add-button" onclick="addToList()"> click Me </button>
+            <div id="number-container"></div>
         </div>
+
+        <div class="container">
+                <div class="column-container">
+                    <div class="sub-column">
+                        <div class="row"></div>
+                        <div class="row"></div>
+                        
+                    </div>  
+                    <div class="sub-column">
+                        <div class="row"></div>
+                        <div class="row"></div>
+                        
+                    </div>  
+                </div>
+        </div>
+
+
+
+        
+        
     </body>
 </html>
