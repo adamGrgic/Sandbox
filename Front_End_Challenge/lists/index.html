@@ -39,8 +39,37 @@
         </div>
 
 
+        <script>
+            let list = []
+            let numbers = 0;
+            addToList = () => {
+                numbers = prompt('How many numbers do you want to add to the box?')
+                list += numbers;
+                console.log(numbers + ' numbers were added to the box! There are now ' + list.length + ' numbers in the box');
+            }
 
-        
+            
+
+        </script>
+
+        <form>
+            <div>
+                <label> </label>
+                <div>
+                    <input>
+                    <input>
+                    <input>
+                </div>
+            </div>
+            
+        </form>
+
+        <button onclick="addToList()">
+
+        </button>
+
+
+
         
     </body>
 </html>
