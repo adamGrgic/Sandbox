@@ -82,6 +82,14 @@ var Barchart = function(options){
                 barHeight,
                 this.colors[barIndex%this.colors.length]
             );
+            //drawing series name
+            this.ctx.save();
+            this.ctx.textBaseline="bottom";
+            this.ctx.textAlign="center";
+            this.ctx.fillStyle = "#000000";
+            this.ctx.font = "bold 14px Arial";
+            this.ctx.fillText(this.options.seriesName, this.canvas.width/2,this.canvas.height);
+            this.ctx.restore();
  
             barIndex++;
         }
@@ -92,7 +100,8 @@ var Barchart = function(options){
 var myBarchart = new Barchart(
     {
         canvas:myCanvas,
-        padding:10,
+        seriesName:"Vinyl records",
+        padding:20,
         gridScale:5,
         gridColor:"#eeeeee",
         data:myVinyls,
