@@ -70,6 +70,43 @@
 
 
 
+        <script>
+            container = [];
+
+
+        addContainer = () => {
+            containers = prompt('how many containers do you want to add to your row?');
+            console.log(parseInt(containers) + ' were added to the q');
+            for (i = 0; i < parseInt(containers); i++) {
+                document.getElementsByClassName('container').innerHTML = 
+                "test";
+                console.log(containers +' were added!')
+            }
+        }
+
+        testInner = () => {
+            document.getElementById('test').innerHTML = "Hello";
+            console.log("button was clicked")
+        }
+        
+        </script>
+
+        <button onclick="testInner()">
+            
+        </button>
+        <p id="test">
+
+        </p>
+
+
+        <button onclick="addContainer()">
+            Click me please
+
+        </button>
+        <div class="container">
+
+        </div>
+
         
     </body>
 </html>
