@@ -8,8 +8,9 @@
 
             var message = "hello world";
             addMessage = () => {
-                document.getElementById('button-message').innerHTML= message ? 'hello' : 'bye';
+                document.getElementById('button-message').innerHTML= message === 'hello' ? 'what' : 'bye';
                 document.getElementById('button-message').style.color = 'blue' ? 'red' : 'blue';
+
             }
 
         </script>
