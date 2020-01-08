@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+
+    </head>
+    <body>
+        <script>
+
+            var message = "hello world";
+            addMessage = () => {
+                document.getElementById('button-message').innerHTML= message ? 'hello' : 'bye';
+                document.getElementById('button-message').style.color = 'blue' ? 'red' : 'blue';
+            }
+
+        </script>
+
+        <button id="button-message" onclick="addMessage()"> Hello </button>
+    </body>
+</html>
